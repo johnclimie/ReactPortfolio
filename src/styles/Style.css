@@ -429,8 +429,8 @@ body {
         padding-top: 15%;
     }
 
-    #nav-links a {
-        font-size: .9rem;
+    #nav-links {
+        flex-direction: column;
     }
 
     #about-me{

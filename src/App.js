@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './componenets/Header';
-import Content from './componenets/TestContent';
-import Projects from './componenets/Projects';
-import Contact from './componenets/Contact';
-import Footer from './componenets/Footer';
+import Header from './components/Header';
+import Content from './components/TestContent';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
     return (

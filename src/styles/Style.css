@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fffaf0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    padding: 3%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.logo-text {
+    font-size: 6rem;
+    color: #38D16F;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+}
+
+#img-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 3%
+
+}
+
+#img-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    border-radius: 50%;
+    background: radial-gradient(#191919, #38D16F);
+}
+
+#profile-img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+#text-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    width: 50%;
+    padding: 3%;
+}
+
+#text-half h1 {
+    font-size: 2.5rem;
+    padding: 3%;
+}
+
+#text-half h1 span {
+    color: #38D16F
+}
+
+#text-half div {
+    padding: 3%;
+}
+
+#text-half div h3{
+    padding-bottom: 3%;
+}
+
+#text-half div hr {
+    border: 3px solid #38D16F;
+}
+
+#nav-links {
+    display: flex;
+    justify-content:space-between;
+    max-width: 60%;
+    min-width: 60%;
+}
+
+#nav-links a {
+    text-decoration: none;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-me-logo-section {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-logo {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+#about-me-logo h1 {
+    display: flex;
+    width: 5ch;
+    padding: 10%;
+
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-color:#38D16F;
+    border-right-width: 5px;
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    text-align: center;
+}
+
+#resume h3 {
+    width: 15ch;
+    font-size: 1.5rem;
+}
+
+#resume span {
+    color:#38D16F;
+}
+
+#resume a {
+    text-decoration: none;
+}
+
+#text-section {
+    width: 50%;
+}
+
+#text-section {
+    width: 40ch;
+    padding: 3%;
+    font-size: 1.3rem;
+    text-align: end;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-logo-section {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-logo h1 {
+    display: flex;
+    padding: 10%;
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-color:#38D16F;
+    border-right-width: 5px;
+}
+
+#projects-logo {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+
+#project1 {
+    width: 80%;
+    margin: 5%;
+    padding: 3%;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#project-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#project-title {
+    font-size: 2.5rem;
+    padding: 3%;
+}
+
+#project-img-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project-img {
+    padding: 3%;
+    max-width: 80%;
+}
+
+#project-info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 2%;
+}
+
+#project-desc {
+    padding-bottom: 2%;
+    font-size: 1.3rem;
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    
+}
+
+#project-languages {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+#project-languages h3{
+    margin-right: 1%;
+}
+
+#html-icon {
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #e34c26;
+}
+#css-icon {
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #264de4;
+}
+#javascript-icon {
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #F0DB4F;
+}
+
+#javascript-icon p {
+    color: black
+}
+
+#project-links {
+    padding: 3%;
+    display: flex;
+    justify-content:space-around
+}
+
+#project-links a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact-me {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-logo-section {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-logo {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+#contact-logo h1 {
+    display: flex;
+    padding: 10%;
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-color:#38D16F;
+    border-right-width: 5px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 3%;
+    width: 75%;
+    background-color: #1e1e1e;
+}
+
+#contact-name {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#contact-name div {
+    width: 50%;
+}
+
+#contact-name div h3 {
+    font-size: 1.8rem;
+    padding: 3%;
+}
+
+#contact-name div input {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+}
+
+#contact-email {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 3%
+}
+
+#contact-email h3 {
+    font-size: 1.8rem;
+    padding: 3%;
+}
+
+#contact-email input {
+    display: flex;
+    align-self: center;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+}
+
+#contact-message {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#contact-message {
+    font-size: 1.8rem;
+    padding: 3%;
+}
+
+#contact-message textarea {
+    display: flex;
+    color: black;
+    font-size: 1.5rem;
+    padding: 3%;
+}
+
+#form-btn {
+    display: flex;
+    align-self: center;
+    border: none;
+    padding: 1% 2%;
+    background-color: #38D16F;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+#footer a {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 3%;
+}
+
+@media (max-width: 900px) {
+    .logo-text {
+        font-size: 2rem;
+    }
+
+    #introduction {
+        flex-direction: column-reverse;
+    }
+
+    #img-half {
+        width: 100%;
+        padding-top: 15%
+    }
+
+    #text-half {
+        width: 100%;
+        padding-top: 15%;
+    }
+
+    #nav-links a {
+        font-size: .9rem;
+    }
+
+    #about-me{
+        flex-direction: column;
+    }
+
+    #logo-section {
+        width: 100%
+    }
+
+    #about-me-logo {
+        padding: 2%;
+    }
+
+    #about-me-logo h1 {
+        display: flex;
+        width: initial;
+        padding: 2%;
+
+    
+        border-bottom-style: solid;
+        border-bottom-color:#38D16F;
+        border-bottom-width: 5px;
+        border-right-style: initial;
+        border-right-color: initial;
+        border-right-width: initial;
+    }
+
+    #resume {
+        padding: 2%;
+    }
+
+    #text-section {
+        width: 90%;
+        padding: 5%
+    }
+
+    #projects-logo h1 {
+        display: flex;
+        width: initial;
+        padding: 2%;
+
+        border-bottom-style: solid;
+        border-bottom-color:#38D16F;
+        border-bottom-width: 5px;
+        border-right-style: initial;
+        border-right-color: initial;
+        border-right-width: initial;
+    }
+
+    #project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-img-container {
+        width: 100%;
+    }
+
+    #project-info {
+        width: 100%;
+    }
+
+    #project-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contact-logo h1 {
+        display: flex;
+        width: initial;
+        padding: 2%;
+
+    
+        border-bottom-style: solid;
+        border-bottom-color:#38D16F;
+        border-bottom-width: 5px;
+        border-right-style: initial;
+        border-right-color: initial;
+        border-right-width: initial;
+    }
+
+    #contact-name {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 370px) {
+    #nav-links a {
+        font-size: .7rem;
+    }
+}

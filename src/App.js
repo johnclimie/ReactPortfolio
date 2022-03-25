@@ -10,7 +10,6 @@ function App() {
         <div>
             <Header />
             <Content />
-            {/* <Projects /> */}
             <Portfolio />
             <Contact />
             <Footer />

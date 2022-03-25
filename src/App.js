@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import Content from './components/TestContent';
-import Projects from './components/Projects';
+import Content from './components/AboutMe';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -10,7 +9,7 @@ function App() {
         <div>
             <Header />
             <Content />
-            <Projects />
+            {/* <Projects /> */}
             <Contact />
             <Footer />
         </div>

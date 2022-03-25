@@ -35,3 +35,5 @@ function Project(props) {
     </div>
     )
 }
+
+export default Project;

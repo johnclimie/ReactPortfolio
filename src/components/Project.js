@@ -1,20 +1,22 @@
 import React from 'react';
 
-function Project(props) {
+function Project({ projects }) {
     return (
-    <div>
+
+    projects.map((project) => (
+        <div>
         <div id="project1">
-            <h2 id="project-title">{props.name}</h2>
+            <h2 id="project-title">{project.name}</h2>
             <div id="project-container">
                 <div id="project-img-container">
-                    <img src={`${props.img}`} id="project-img"></img>
+                    <img src={`${project.img}`} id="project-img"></img>
                 </div>
                 <div id="project-info">
                     <p id="project-desc">
-                        {props.description}
+                        {project.description}
                     </p>
                     <div id="project-languages">
-                        <h3>Created With {props.languages}</h3>
+                        <h3>Created With {project.languages}</h3>
                         {/* <div id="html-icon">
                             <p>HTML</p>
                         </div>
@@ -26,13 +28,14 @@ function Project(props) {
                         </div> */}
                     </div>
                     <div id="project-links">
-                        <a href={`${props.deployment}`}>View Deployment</a>
-                        <a href={`${props.github}`}>View on GitHub</a>
+                        <a href={`${project.deployment}`}>View Deployment</a>
+                        <a href={`${project.github}`}>View on GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    ))
     )
 }
 

@@ -4,7 +4,7 @@ import '../styles/Style.css';
 function Resume() {
     return (
         <section id="resume">
-            <h1>You can view my resume <a href="#"><span>here</span></a></h1>
+            <h1>You can view my resume <a href="https://drive.google.com/file/d/1tQO4xy-urKPbJ_N_l3F3ShzANjrgCDdu/view?usp=sharing"><span>here</span></a></h1>
         </section>
 
     )

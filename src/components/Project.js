@@ -17,15 +17,6 @@ function Project({ projects }) {
                     </p>
                     <div id="project-languages">
                         <h3>Created With {project.languages}</h3>
-                        {/* <div id="html-icon">
-                            <p>HTML</p>
-                        </div>
-                        <div id="css-icon">
-                            <p>CSS</p>
-                        </div>
-                        <div id="javascript-icon">
-                            <p>JavaScript</p>
-                        </div> */}
                     </div>
                     <div id="project-links">
                         <a href={`${project.deployment}`}>View Deployment</a>

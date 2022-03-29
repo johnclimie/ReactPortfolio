@@ -8,9 +8,9 @@ function Header() {
   return (
     <section id="introduction">
     <div id="img-half">
-        <div id="img-border">
+        {/* <div id="img-border">
             <img src='https://avatars.githubusercontent.com/u/90417021?s=400&u=fec4823d23b6904e31fdfda73881fa8bc80819fe&v=4" id="profile-img'></img>
-        </div>    
+        </div>     */}
     </div>
 
     <div id="text-half">

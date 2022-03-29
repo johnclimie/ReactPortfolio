@@ -8,6 +8,9 @@ function Content() {
             <div id="about-me-logo">
                 <h1 class="logo-text">About Me</h1>
             </div>
+            <div id="img-border">
+                <img src='https://avatars.githubusercontent.com/u/90417021?s=400&u=fec4823d23b6904e31fdfda73881fa8bc80819fe&v=4" id="profile-img'></img>
+            </div>
             <div id="resume">
                 <h3>You can view my resume <a href="https://drive.google.com/file/d/1tQO4xy-urKPbJ_N_l3F3ShzANjrgCDdu/view?usp=sharing"><span>here</span></a></h3>
             </div>

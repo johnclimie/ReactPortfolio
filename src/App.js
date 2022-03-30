@@ -1,9 +1,10 @@
 import React from "react";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route,
     BrowserRouter,
+    HashRouter,
 } from "react-router-dom";
 
 import Header from "../src/components/Header";
@@ -15,7 +16,7 @@ import Resume from "../src/components/Resume";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
         <Header />
             <Routes>
                <Route path="/" element={<Content />} />
@@ -24,7 +25,7 @@ function App() {
                <Route path="/resume" element={<Resume />} />
             </Routes>
         <Footer />
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

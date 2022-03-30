@@ -19,7 +19,7 @@ function App() {
         <HashRouter basename="/">
         <Header />
             <Routes>
-               <Route path="/" element={<Content />} />
+               <Route path="" element={<Content />} />
                <Route path="/portfolio" element={<Portfolio />} />
                <Route path="/contact" element={<Contact />} />
                <Route path="/resume" element={<Resume />} />

@@ -16,7 +16,7 @@ import Resume from "../src/components/Resume";
 
 function App() {
     return (
-        <HashRouter>
+        <HashRouter basename="/">
         <Header />
             <Routes>
                <Route path="/" element={<Content />} />

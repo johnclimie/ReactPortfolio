@@ -14,3 +14,4 @@ Overall, I found this project fairly simple. I was only challenged by how I was 
 
 **Link**
 
+GitHub Pages: https://johnclimie.github.io/ReactPortfolio/

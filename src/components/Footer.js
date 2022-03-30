@@ -1,6 +1,10 @@
+// Import React library
 import React from 'react';
+
+// Import CSS
 import '../styles/Style.css';
 
+// Creates footer component
 function Footer() {
     return (
         <section id="footer">
@@ -11,4 +15,5 @@ function Footer() {
     )
 }
 
+// Exports footer component
 export default Footer;

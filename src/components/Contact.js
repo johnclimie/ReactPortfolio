@@ -1,8 +1,13 @@
+// Import React and useState library
 import React, { useState } from 'react';
+
+// Import CSS
 import '../styles/Style.css';
 
+// Creates contact component
 function Contact() {
 
+    // Creates useState function for form validation if a text field is empty
     const [formState, setFormState] = useState({ firstName: '', lastName: '', email: '', message: '' });
 
     const [errorMessage, setErrorMessage] = useState('');
@@ -10,22 +15,25 @@ function Contact() {
     const { firstName, lastName, email, message } = formState;
 
     function formChange(e) {
+        // If textbox is empty, error message appears
         if (!e.target.value.length) {
             setErrorMessage(`Empty fields are required`);
         } else {
             setErrorMessage('');
         }
-
+        
+        // If there is no errorMessage, formState is set to the new value
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value })
         }
     }
 
-
+    // Prevents default
     function submit(e) {
         e.preventDefault();
     }
 
+    // Renders component
     return (
         <section id="contact-me">
 
@@ -70,4 +78,5 @@ function Contact() {
     )
 }
 
+// Exports contact component
 export default Contact;

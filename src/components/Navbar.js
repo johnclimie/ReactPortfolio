@@ -1,9 +1,12 @@
+// Import React library
 import React from 'react';
-// import Link from 'react-router-dom';
+
+// Import Link from 'react-router-dom';
 import {
     BrowserRouter as Router, Link
   } from "react-router-dom";
 
+  // Create navbar component
 function Navbar() {
     return (
         <div id="nav-links">
@@ -31,4 +34,5 @@ function Navbar() {
     );
 }
 
+// Export navbar component
 export default Navbar;

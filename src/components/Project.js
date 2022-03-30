@@ -1,8 +1,10 @@
+// Imports React
 import React from 'react';
 
+// Creates project component
 function Project({ projects }) {
     return (
-
+    // Creates project element for each project
     projects.map((project) => (
         <div>
         <div id="project1">
@@ -30,4 +32,5 @@ function Project({ projects }) {
     )
 }
 
+// Exports project component 
 export default Project;

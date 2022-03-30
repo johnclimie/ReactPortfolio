@@ -1,3 +1,5 @@
+// Creates array of projects to display on page
+
 const projects = [
     {
         name: "Text Editor",

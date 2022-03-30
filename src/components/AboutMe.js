@@ -1,6 +1,11 @@
+// Imports React library
 import React from 'react';
+
+// Imports CSS
 import '../styles/Style.css';
 
+
+// Creates content component
 function Content() {
     return (
         <section id="about-me">
@@ -24,4 +29,5 @@ function Content() {
     )
 }
 
+// Exports content component
 export default Content;

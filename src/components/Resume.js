@@ -1,6 +1,8 @@
+// Imports React libraries
 import React from 'react';
 import '../styles/Style.css';
 
+// Creates resume component 
 function Resume() {
     return (
         <section id="resume">
@@ -10,4 +12,5 @@ function Resume() {
     )
 }
 
+// Exports resume component
 export default Resume;

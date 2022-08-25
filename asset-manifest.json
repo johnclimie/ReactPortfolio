@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/%7Brepo-name%7D/static/css/main.c365b1e1.css",
-    "main.js": "/%7Brepo-name%7D/static/js/main.4ec334f8.js",
-    "index.html": "/%7Brepo-name%7D/index.html",
-    "main.c365b1e1.css.map": "/%7Brepo-name%7D/static/css/main.c365b1e1.css.map",
-    "main.4ec334f8.js.map": "/%7Brepo-name%7D/static/js/main.4ec334f8.js.map"
+    "main.css": "/concertportfolio/static/css/main.c365b1e1.css",
+    "main.js": "/concertportfolio/static/js/main.4ec334f8.js",
+    "index.html": "/concertportfolio/index.html",
+    "main.c365b1e1.css.map": "/concertportfolio/static/css/main.c365b1e1.css.map",
+    "main.4ec334f8.js.map": "/concertportfolio/static/js/main.4ec334f8.js.map"
   },
   "entrypoints": [
     "static/css/main.c365b1e1.css",
